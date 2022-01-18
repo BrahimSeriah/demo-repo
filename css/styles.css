@@ -1,0 +1,64 @@
+.top-container {
+  background-image: url("../background.jpg");
+  height: 100vh;
+  width: 100vw;
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.middle-container {
+  background-color: burlywood;
+  height: 100vh;
+  width: 100vw;
+  max-width: 100%;
+}
+
+.bottom-container {
+  background-color: cornsilk;
+  height: 100vh;
+  width: 100vw;
+  max-width: 100%;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: Roboto;
+}
+
+.top-container-content{
+  font-size: min(5vw, 2.5em);
+  
+}
+
+.top-container-content h1{
+  font-family: "Pacifico";
+}
+
+.skill-row{
+  display: block;
+  text-align: left;
+}
+
+.skill-row img{
+  height: 20vh;
+  width: 20vh;
+  float: left;
+  clear: left
+}
+
+.skills{
+  margin: 10vh;
+}
+
+.profile{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile img{
+  width: min(10vw);
+}
