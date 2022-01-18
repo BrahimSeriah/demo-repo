@@ -1,3 +1,11 @@
+body {
+  font-family: Roboto;
+  font-size: 1.5em;
+  margin: 0;
+  text-align: center;
+
+}
+
 .top-container {
   background-image: url("../background.jpg");
   background-repeat: no-repeat;
@@ -11,27 +19,25 @@
 }
 
 .middle-container {
-  background-color: burlywood;
-  height: 100vh;
+  background-color: #D3DEDC ;
   width: 100vw;
   max-width: 100%;
+  padding: 20px 0;
 }
 
 .bottom-container {
-  background-color: cornsilk;
-  height: 100vh;
+  background-color: #ECB365 ;
   width: 100vw;
   max-width: 100%;
+  padding: 30px 0;
+  font-size: 0.5em;
 }
 
-body {
-  margin: 0;
-  text-align: center;
-  font-family: Roboto;
-}
+
 
 .top-container-content{
-  font-size: min(5vw, 2.5em);
+  font-size: min(4vw, 2em);
+  color: #041C32;
   
 }
 
@@ -39,28 +45,71 @@ body {
   font-family: "Pacifico";
 }
 
+.middle-container-content{
+  width: 60vw;
+  min-width: 720px;
+  margin: auto;
+}
+
 .skill-row{
-  display: block;
+  display: flex;
+  align-items: center;
   text-align: left;
 }
 
 .skill-row img{
-  height: 20vh;
-  width: 20vh;
-  float: left;
-  clear: left
+  height: 18vw;
+  width: 18 vw;
+  padding: 5vw;
 }
 
-.skills{
-  margin: 10vh;
-}
 
 .profile{
+
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
+  text-align: left;
+  margin: 0 auto;
 }
 
 .profile img{
-  width: min(10vw);
+  width: 10vw;
+  margin: 50px;
+  background: teal;
+  border-radius: 50%;
+  border: 5px solid grey;
+}
+
+.btn{
+  text-decoration: none;
+  color: white;
+  background-color: teal;
+  border-radius: 15px;
+  padding: 20px;
+  display: inline-block;
+  margin: 30px;
+}
+
+p{
+  line-height: 2em;
+}
+
+hr{
+  border: 0.5em dotted rgb(111, 170, 170);
+  border-bottom: none;
+  width: 20%;
+  margin: 3em auto;
+}
+
+h2{
+  color: teal;
+}
+
+.footer-link{
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+  margin: 0 30px;
+  font-size: 2em;
 }
